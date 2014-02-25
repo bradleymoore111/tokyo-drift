@@ -50,48 +50,48 @@ voltages
 */ 
 
 void batteryLevel(){ 
-if(vexRT[Btn7D]==1){ 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("10.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("20.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("30.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("40.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("50.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("60.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("70.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("80.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("90.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
-PlaySoundFile("100.wav"); 
-until(vexRT[Btn7D]!=1); 
-} 
-} 
+  if(vexRT[Btn7D]==1){ 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("10.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("20.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("30.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("40.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("50.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("60.wav"); 
+       until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("70.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("80.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("90.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+    if(SensorValue[batterySense]>619&&SensorValue[batterySense]<=670){ 
+      PlaySoundFile("100.wav"); 
+      until(vexRT[Btn7D]!=1); 
+    } 
+  } 
 } 
 
 void ledSwitch(){ 
@@ -221,8 +221,8 @@ if(vexRT[Btn7U]==1){
     until(vexRT[Btn7U]==0); 
     } 
   } 
-
 } 
+
 void trimProg(){ 
   if(vexRT[Btn7L]==1){ 
     steeringTrim=steeringTrim-1; 
