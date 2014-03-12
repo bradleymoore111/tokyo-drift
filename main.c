@@ -31,11 +31,11 @@ int steeringTrim=18;
 int speed=0;
 int profile=1;
 int multiplier=3;
-string secretCode="";
 int secretLength=0;
 bool onOff=true;
 bool flashset=false;
 bool init=true;
+string secretCode="";
 
 void ledSwitch(){
   if(secretLength==1){
